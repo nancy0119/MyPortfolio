@@ -1,0 +1,47 @@
+.proj-card {
+    position: relative; 
+    width: 250px;
+    height: 250px;
+    background-color: rgb(120, 121, 235, 0.2);
+    border-radius: 10%;
+    margin: 2%;
+
+    svg{
+        color: black;
+        padding: 3%;
+        font-size: 225%;
+    }
+
+    img{
+        width: 225px;
+        height:175px ;
+        border-radius: 10%;
+        padding: 4%;
+    }
+  }
+  
+  .img-desc {
+    box-sizing: border-box;
+    width: 225px;
+    height: 175px ;
+    padding: 4%;
+    border-radius: 10%;
+    position: absolute;
+    top: 4%; left: 5%;
+    text-align: center;
+    background-color: rgb(1, 28, 43, 0.9);
+    color: rgb(159, 150, 150);
+    visibility: none; 
+    opacity: 0;
+    transition: opacity 0.3s;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: sans-serif;
+  }
+  .content:hover .img-desc {
+    visibility: visible; 
+    opacity: 1;
+  }
+  .proj-card:hover{
+    transform: scale(1.25);
+  }

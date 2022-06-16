@@ -1,0 +1,17 @@
+.lang{
+    display: flex; 
+}
+.animate-left{
+    animation: slidein 2s linear 1s;
+}
+@keyframes slidein {
+    from{margin-left: -20%};
+    to{margin-left: 5%};
+}
+.animate-right{
+    animation: slideout 2s linear 1s;
+}
+@keyframes slideout {
+    from   {margin-right: -20%;}
+    to  {margin-right: 5%;}
+}

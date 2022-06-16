@@ -1,0 +1,25 @@
+.logo-container{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    .solid-logo{
+        width: 300px;
+        height: 300px;
+        border-radius: 5px;
+        box-shadow: 3px -1px 1500px 1px #ead669;
+        animation-name: zoom-in-zoom-out;
+        animation-duration: 2s;
+        animation-delay: 2s;
+    }
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+    transform: scale(1, 1);
+    }
+    50% {
+    transform: scale(1.05, 1.05);
+    }
+    100% {
+    transform: scale(1, 1);
+    }
+    }
